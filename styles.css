@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: paleturquoise;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#company {
+text-align: center;
+}
+
+#searchBar {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+#loginLink {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#loginLink:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.course img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.course h2 {
+    margin-top: 10px;
+}
+
+.course p {
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: paleturquoise;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
